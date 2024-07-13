@@ -4,6 +4,12 @@ import 'package:flutter/material.dart';
 
 class MyCard extends StatelessWidget {
 
+  final suit;
+  final color;
+  final number;
+
+  MyCard({this.suit,this.color,this.number});
+
   @override
   Widget build(BuildContext context) {
    return Padding(
